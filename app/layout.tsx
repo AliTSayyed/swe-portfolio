@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-	title: '[Your Name] - Backend Developer',
+	title: 'Ali-Taabesh Sayyed: Software Developer',
 	description:
 		'Welcome to my portfolio! I am a passionate backend developer specializing in building scalable server architectures, robust APIs, and high-performance distributed systems. With expertise in cloud infrastructure and database optimization, I create efficient and reliable backend solutions.',
 	keywords: [
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
 	authors: [{ name: '[Your Name]' }],
 	creator: '[Your Name]',
 	openGraph: {
-		title: '[Your Name] - Backend Developer Portfolio',
+		title: 'Ali-Taabesh Sayyed: Software Developer Portfolio',
 		description: 'Passionate backend developer crafting scalable and efficient server architectures. Explore my projects and technical expertise.',
 		url: 'https://your-domain.com',
 		siteName: '[Your Name] - Portfolio',
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
 	},
 	twitter: {
 		card: 'summary_large_image',
-		title: '[Your Name] - Backend Developer',
+		title: 'Ali-Taabesh Sayyed: Software Engineer',
 		description: 'Passionate backend developer crafting scalable and efficient server architectures. Explore my projects and technical expertise.',
 		creator: '@yourusername',
 		images: ['/og-image.jpg'],
