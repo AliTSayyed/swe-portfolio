@@ -4,16 +4,15 @@ import { motion } from 'framer-motion';
 
 export default function TechnicalMetrics() {
   return (
-    <section className="py-20 px-4 bg-gray-900/50">
+    <section id="projects" className="py-20 px-4 bg-gray-900/50">
       <div className="max-w-6xl mx-auto">
         <motion.h2 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} className="text-3xl font-bold mb-12 text-center">
           Projects
         </motion.h2>
 
         <div className="grid grid-cols-1 gap-12">
-          {/* System Performance */}
           <div>
-            <h3 className="text-xl font-semibold mb-6 text-green-400">System Performance</h3>
+            <h3 className="text-xl font-semibold mb-6 text-green-400">Full-Stack</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <motion.div
                 initial={{ opacity: 0, scale: 0.95 }}
@@ -44,9 +43,8 @@ export default function TechnicalMetrics() {
             </div>
           </div>
 
-          {/* Infrastructure & DevOps */}
           <div>
-            <h3 className="text-xl font-semibold mb-6 text-green-400">Infrastructure & DevOps</h3>
+            <h3 className="text-xl font-semibold mb-6 text-green-400">Bakcend</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <motion.div
                 initial={{ opacity: 0, scale: 0.95 }}
@@ -77,9 +75,40 @@ export default function TechnicalMetrics() {
             </div>
           </div>
 
-          {/* Development & Leadership */}
           <div>
-            <h3 className="text-xl font-semibold mb-6 text-green-400">Development & Leadership</h3>
+            <h3 className="text-xl font-semibold mb-6 text-green-400">Frontend</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <motion.div
+                initial={{ opacity: 0, scale: 0.95 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                className="bg-gray-800/50 rounded-lg p-6 border border-gray-700"
+              >
+                <h4 className="text-lg font-semibold text-gray-300">Code Quality</h4>
+                <ul className="mt-2 space-y-2 text-gray-400">
+                  <li>• Led adoption of TypeScript across backend</li>
+                  <li>• Established coding standards</li>
+                  <li>• Reduced technical debt by 40%</li>
+                </ul>
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, scale: 0.95 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                className="bg-gray-800/50 rounded-lg p-6 border border-gray-700"
+              >
+                <h4 className="text-lg font-semibold text-gray-300">Team Impact</h4>
+                <ul className="mt-2 space-y-2 text-gray-400">
+                  <li>• Mentored 4 junior developers</li>
+                  <li>• Created 30+ technical documentation guides</li>
+                  <li>• Led 3 major system migrations</li>
+                </ul>
+              </motion.div>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-xl font-semibold mb-6 text-green-400">Data Structures and Algorithims</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <motion.div
                 initial={{ opacity: 0, scale: 0.95 }}
@@ -111,6 +140,6 @@ export default function TechnicalMetrics() {
           </div>
         </div>
       </div>
-    </section>
+    </section >
   );
 }

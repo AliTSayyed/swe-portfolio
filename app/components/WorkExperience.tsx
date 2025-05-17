@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 export default function SystemArchitecture() {
   return (
-    <section className="py-20 px-4">
+    <section id="work" className="py-20 px-4">
       <div className="max-w-6xl mx-auto">
         <motion.h2 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} className="text-3xl font-bold mb-12 text-center">
           Work Experience
@@ -14,25 +14,23 @@ export default function SystemArchitecture() {
           {[
             {
               title: 'Full-Stack Developer @GetBrain.ai',
-              description: 'Designed and implemented a microservices architecture handling 1M+ daily requests with 99.99% uptime',
+              description: 'Lead end-to-end voice AI solution development through designing automated data pipelines, implementing backend microservice integrations, and creating intuitive frontend interfaces that drive client success, consistently delivering complex technical solutions with minimal supervision despite junior status.',
               details: [
-                'Containerized microservices with Docker and Kubernetes',
-                'Implemented service mesh with Istio',
-                'Designed event-driven architecture using Apache Kafka',
-                'Achieved 40% reduction in response times',
+                'Designed and implemented robust automated data pipelines that streamlined voice ai processing workflows, reducing manual intervention by 70%.',
+                'Independently developed client-facing frontend portals from Google App Scripts to Next.js, enhancing user engagement metrics and creating intuitive interfaces that simplified complex voice AI interactions.',
+                'Mastered the company\'s Golang microservice architecture within weeks as a junior developer.'
               ],
-              tech: ['Go', 'N8N', 'JavaScript', 'TypeScript', 'Next.js'],
+              tech: ['Go', 'N8N', 'Dockers', 'APIs/Webhooks', 'JavaScript', 'TypeScript', 'Next.js'],
             },
             {
-              title: 'Full-Stack Developer Intern @LegalPro',
-              description: 'Built a robust data processing pipeline handling 5TB+ daily data with sub-second latency',
+              title: 'Full-Stack Developer @LegalPro',
+              description: 'Independently developed a real-time WebSocket chat application with Django backend and Angular frontend integration for the company\'s core SaaS product',
               details: [
-                'Implemented stream processing with Apache Flink',
-                'Designed fault-tolerant architecture with automatic failover',
-                'Optimized data throughput by 60%',
-                'Implemented comprehensive monitoring with Prometheus & Grafana',
+                'Architected and implemented a complete WebSocket-based chat system',
+                'Designed and optimized the database schema and caching system',
+                'Implemented secure JWT authentication protocols'
               ],
-              tech: ['Angular', 'Django', 'PostgreSQL'],
+              tech: ['Angular', 'Django', 'PostgreSQL', 'JWT'],
             },
           ].map((project, index) => (
             <motion.div
