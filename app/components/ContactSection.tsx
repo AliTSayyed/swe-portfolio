@@ -61,6 +61,7 @@ export default function ContactSection() {
                 <motion.a
                   href="https://github.com/AliTSayyed/"
                   target="_blank"
+                  rel="noopener noreferrer"
                   whileHover={{ scale: 1.05 }}
                   className="flex items-center gap-3 px-4 py-3 bg-gray-800/50 rounded-lg hover:bg-gray-700/50 transition-colors border border-gray-700/50 group"
                 >
@@ -76,6 +77,7 @@ export default function ContactSection() {
                 </motion.a>
                 <motion.a
                   href="https://www.linkedin.com/in/ali-taabesh-sayyed-48b489307/"
+                  rel="noopener noreferrer"
                   target="_blank"
                   whileHover={{ scale: 1.05 }}
                   className="flex items-center gap-3 px-4 py-3 bg-gray-800/50 rounded-lg hover:bg-gray-700/50 transition-colors border border-gray-700/50 group"

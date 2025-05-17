@@ -62,7 +62,7 @@ export default function HeroSection() {
           <div className="font-mono">
             <p className="text-green-500">$ dev --version</p>
             <h1 className="text-4xl md:text-5xl font-bold mt-2 mb-4">Ali-Taabesh Sayyed</h1>
-            <p className="text-green-500">$ which skills</p>
+            <p className="text-green-500">$ ls -la ./skills</p>
             <div className="flex flex-wrap gap-2 mt-2 mb-4">
               <span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Java</span>
               <span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Go</span>
@@ -79,7 +79,7 @@ export default function HeroSection() {
               <span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Dockers</span>
               <span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">Kubernetes</span>
             </div>
-            <p className="text-green-500 mb-4">$ dev --about</p>
+            <p className="text-green-500 mb-2">$ cat About.txt</p>
             <p className="text-gray-400 mb-2"> I&#39;m a self-taught Software Developer who transitioned from a Biochemistry background (Summa Cum Laude) to tech. I chose this industry becuase of my passion for creating solutions and an exceptional ability to master new skills. In just one year, I&#39;ve accelerated from a coding novice to a valuable contributor at fast-paced startups, where adaptability and quick learning are essential. My passion lies in full-stack development—crafting complete, end-to-end solutions that deliver tangible value to clients. This drive has already led me to architect data pipelines, develop real-time communication systems, and create intuitive interfaces using diverse technologies. My scientific mindset combined with my enthusiasm for building comprehensive software solutions allows me to consistently exceed expectations.</p>
           </div>
         </motion.div>
