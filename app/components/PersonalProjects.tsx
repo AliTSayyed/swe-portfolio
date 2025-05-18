@@ -30,7 +30,7 @@ export default function TechnicalMetrics() {
                 <h4 className="text-lg font-semibold text-gray-300">
                   Trust Pilot Clone
                 </h4>
-                <ul className="mt-2 space-y-2 text-gray-400">
+                <ul className="mt-2 mb-10 space-y-2 text-gray-400">
                   <li>
                     • Developed a full stack Trust Pilot clone for freelancer
                     reviews
@@ -97,7 +97,7 @@ export default function TechnicalMetrics() {
                 <h4 className="text-lg font-semibold text-gray-300">
                   RSS Aggregator
                 </h4>
-                <ul className="mt-2 mb-4 space-y-2 text-gray-400">
+                <ul className="mt-2 mb-10 space-y-2 text-gray-400">
                   <li>
                     • Developed backed which collects RSS Feeds per user request
                     and stores it in a Postgres database.
@@ -145,13 +145,15 @@ export default function TechnicalMetrics() {
                 <h4 className="text-lg font-semibold text-gray-300">
                   Amazon Clone Site
                 </h4>
-                <ul className="mt-2 space-y-2 text-gray-400">
-                  <li>• Created an Amazon clone site</li>
+                <ul className="mt-2 mb-10 space-y-2 text-gray-400">
+                  <li>
+                    • Developed an Amazon clone site with add to cart and
+                    checkout functionality
+                  </li>
                   <li>
                     • Strong fundamental understanding of the DOM and how
                     Javascript allows for user interactions
                   </li>
-                  <li>• Reduced technical debt by 40%</li>
                 </ul>
                 <div className="absolute bottom-4 right-4 flex space-x-2">
                   <a
@@ -201,7 +203,7 @@ export default function TechnicalMetrics() {
                 <h4 className="text-lg font-semibold text-gray-300">
                   React Projects
                 </h4>
-                <ul className="mt-2 space-y-2 text-gray-400">
+                <ul className="mt-2 mb-10 space-y-2 text-gray-400">
                   <li>
                     • Strong understanding of React fundamentals including
                     props, state, hooks, and components.
