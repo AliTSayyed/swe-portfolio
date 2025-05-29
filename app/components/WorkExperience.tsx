@@ -18,13 +18,13 @@ export default function SystemArchitecture() {
         <div className="grid grid-cols-1 gap-8">
           {[
             {
-              title: "Full-Stack Developer @GetBrain.ai",
+              title: "Software Engineer @BRAIN",
               description:
                 "Lead end-to-end voice AI solution development through designing automated data pipelines, implementing backend microservice integrations, and creating intuitive frontend interfaces that drive client success, consistently delivering complex technical solutions with minimal supervision despite junior status.",
               details: [
-                "Designed and implemented robust automated data pipelines that streamlined voice ai processing workflows.",
-                "Independently developed client-facing frontend portals enhancing user engagement metrics and creating intuitive interfaces that simplified complex voice AI interactions.",
-                "Understood the company's Golang microservice architecture within weeks as a junior developer.",
+                "Architected and implemented data pipelines using voice AI solutions, reducing manual client processes by ~80%, leveraging our Golang-based microservices.",
+                "Developed automated workflows, frontend interfaces, and built custom testing tools—fully adopted by customer departments.",
+                "Independently mastered complex backend systems, delivered custom automation solutions, and rapidly adopted new technologies.",
               ],
               tech: [
                 "Go",
@@ -37,13 +37,13 @@ export default function SystemArchitecture() {
               ],
             },
             {
-              title: "Full-Stack Developer @LegalPro",
+              title: "Software Engineer @Legal Pro",
               description:
                 "Independently developed a real-time WebSocket chat application with Django backend and Angular frontend integration for the company's core SaaS product",
               details: [
-                "Architected a complete WebSocket-based chat system",
-                "Designed and optimized the database schema and caching system",
-                "Implemented secure JWT authentication protocols",
+                "Worked on full stack development, enabling lawyers to efficiently manage clients, cases, and communications.",
+                "Developed a real-time chat system using Django and Angular, delivering a WhatsApp Web like user experience and architected to support 1,000+ concurrent users.",
+                "Implemented JWT authentication protocols for session management.",
               ],
               tech: ["Angular", "Django", "PostgreSQL", "JWT"],
             },
