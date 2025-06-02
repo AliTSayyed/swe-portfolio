@@ -18,7 +18,7 @@ export default function SystemArchitecture() {
         <div className="grid grid-cols-1 gap-8">
           {[
             {
-              title: "Software Engineer @BRAIN",
+              title: "Software Engineer @BRAIN AI",
               description:
                 "Lead end-to-end voice AI solution development through designing automated data pipelines, implementing backend microservice integrations, and creating intuitive frontend interfaces that drive client success, consistently delivering complex technical solutions with minimal supervision despite junior status.",
               details: [
@@ -37,7 +37,7 @@ export default function SystemArchitecture() {
               ],
             },
             {
-              title: "Software Engineer @Legal Pro",
+              title: "Software Engineer @Legal Pro System",
               description:
                 "Independently developed a real-time WebSocket chat application with Django backend and Angular frontend integration for the company's core SaaS product",
               details: [
