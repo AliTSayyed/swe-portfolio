@@ -89,6 +89,9 @@ export default function HeroSection() {
             <p className="text-green-500">$ ls -la ./skills</p>
             <div className="flex flex-wrap gap-2 mt-2 mb-4">
               <span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">
+                C
+              </span>
+              <span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">
                 Java
               </span>
               <span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">
@@ -116,7 +119,7 @@ export default function HeroSection() {
                 N8N
               </span>
               <span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">
-                Git
+                Git/Github
               </span>
               <span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">
                 PostgreSQL
@@ -130,15 +133,19 @@ export default function HeroSection() {
               <span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">
                 Kubernetes
               </span>
+              <span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">
+                HTTP Networking
+              </span>
             </div>
             <p className="text-green-500 mb-2">$ cat About.txt</p>
             <p className="text-gray-400 mb-2">
-              I&#39;m a self-taught Software Developer who transitioned from a
-              Biochemistry background (Summa Cum Laude) to tech. My passion lies
-              in full-stack development, crafting complete end-to-end solutions
-              that deliver tangible value to clients. This drive has already led
-              me from a coding novice to a valuable contributor at fast-paced
-              startups, where adaptability and quick learning are essential.
+              I&#39;m a Software Developer pursuing a Master&#39;s of Computer
+              Science at Rice University, building on my background as a
+              Biochemistry graduate. My passion lies in full-stack development,
+              crafting end-to-end solutions that deliver tangible value to
+              clients. This drive has taken me from a coding novice to a
+              contributor at fast-paced startups. I now develop SaaS products
+              leveraging scalable infrastructure and practical AI solutions.
             </p>
           </div>
         </motion.div>

@@ -24,20 +24,22 @@ export default function SystemArchitecture() {
               details: [
                 "Architected and implemented data pipelines using voice AI solutions, reducing manual client processes by ~80%, leveraging our Golang-based microservices.",
                 "Developed automated workflows, frontend interfaces, and built custom testing tools—fully adopted by customer departments.",
-                "Independently mastered complex backend systems, delivered custom automation solutions, and rapidly adopted new technologies.",
+                "Independently mastered complex backend systems, delivered custom automation solutions, and managed direct client communications to ensure satisfaction.",
               ],
               tech: [
-                "Go",
-                "N8N",
+                "Golang",
+                "Hexagonal DDD",
+                "Workflow Automation",
                 "Dockers",
                 "APIs/Webhooks",
                 "JavaScript",
                 "TypeScript",
-                "Next.js",
+                "React",
+                "UI/UX Design",
               ],
             },
             {
-              title: "Software Engineer @Legal Pro System",
+              title: "Software Engineer Intern @Legal Pro System",
               description:
                 "Independently developed a real-time WebSocket chat application with Django backend and Angular frontend integration for the company's core SaaS product",
               details: [
@@ -45,7 +47,7 @@ export default function SystemArchitecture() {
                 "Developed a real-time chat system using Django and Angular, delivering a WhatsApp Web like user experience and architected to support 1,000+ concurrent users.",
                 "Implemented JWT authentication protocols for session management.",
               ],
-              tech: ["Angular", "Django", "PostgreSQL", "JWT"],
+              tech: ["Angular", "Django", "PostgreSQL", "WebSockets"],
             },
           ].map((project, index) => (
             <motion.div
