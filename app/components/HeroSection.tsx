@@ -84,7 +84,7 @@ export default function HeroSection() {
           <div className="font-mono">
             <p className="text-green-500">$ dev --version</p>
             <h1 className="text-4xl md:text-5xl font-bold mt-2 mb-4">
-              Ali-Taabesh Sayyed
+              Ali Sayyed
             </h1>
             <p className="text-green-500">$ ls -la ./skills</p>
             <div className="flex flex-wrap gap-2 mt-2 mb-4">
