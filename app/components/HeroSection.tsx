@@ -89,9 +89,6 @@ export default function HeroSection() {
             <p className="text-green-500">$ ls -la ./skills</p>
             <div className="flex flex-wrap gap-2 mt-2 mb-4">
               <span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">
-                C
-              </span>
-              <span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">
                 Java
               </span>
               <span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">
@@ -99,9 +96,6 @@ export default function HeroSection() {
               </span>
               <span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">
                 Python
-              </span>
-              <span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">
-                Django
               </span>
               <span className="px-3 py-1 bg-green-500/10 rounded-md border border-green-500/20">
                 JavaScript
